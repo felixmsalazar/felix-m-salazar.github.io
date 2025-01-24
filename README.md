@@ -2,7 +2,7 @@
 
 ## Welcome
 
-This repository contains a collection of my projects in financial modeling, focusing on foreign exchange and credit market analysis.
+This repository contains a collection of my projects in financial modeling, focusing on foreign exchange, credit market analysis, and more.
 
 ## Project Highlights
 
