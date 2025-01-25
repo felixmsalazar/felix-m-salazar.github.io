@@ -6,7 +6,7 @@ This repository contains a collection of my projects in financial modeling, focu
 
 ## Project Highlights
 
-### Implied Spot FX
+### Implied Spot FX Model
 Exploration of approaches to modeling implied foreign exchange rates, incorporating methods like purchasing power parity and forward-implied breakevens.
 
 ### Credit RV Surfaces
