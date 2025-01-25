@@ -7,13 +7,13 @@ This repository contains a collection of my projects in financial modeling, focu
 ## Project Highlights
 
 ### Implied Spot FX Model
-Exploration of approaches to modeling implied foreign exchange rates, incorporating methods like purchasing power parity and forward-implied breakevens.
+Exploration of simple approache to modeling implied foreign exchange rates, incorporating methods like purchasing power parity and forward-implied breakevens.
 
 ### Credit RV Surfaces
-Methodologies for constructing and analyzing credit relative value surfaces, providing insights into market pricing and potential trading opportunities.
+Methodology for constructing and analyzing credit relative value surfaces, providing insights into market pricing and potential trading opportunities.
 
 ### Portfolio Hedge Implied Carry
-Methods for calculating portfolio-level implied carry across single and multi-currency hedging strategies.
+Method for calculating portfolio-level implied carry across single and multi-currency hedging strategies.
 
 ### Portfolio rolling factor extractor
 This project implements a simple method for aggregating and standardizing multiple investment strategies based on rolling factors. The primary objective is to identify and quantify strategy biases across diverse portfolios.
