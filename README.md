@@ -12,7 +12,7 @@ Exploration of approaches to modeling implied foreign exchange rates, incorporat
 ### Credit RV Surfaces
 Methodologies for constructing and analyzing credit relative value surfaces, providing insights into market pricing and potential trading opportunities.
 
-### Portfolio-Level Implied Carry Calculations
+### Portfolio Hedge Implied Carry
 Methods for calculating portfolio-level implied carry across single and multi-currency hedging strategies.
 
 ### Portfolio rolling factor extractor
