@@ -9,6 +9,32 @@ from typing import Optional
 import sys
 import os
 
+### README START ###
+
+This code implements a sophisticated currency analysis tool focusing on purchasing power parity (PPP) and implied exchange rates. Key features include:
+
+1. Data retrieval and processing from Bloomberg using BQL and XBBG libraries.
+
+2. Calculation of implicit FX rates based on inflation differentials between countries.
+
+3. Implementation of a `Base` class to manage currency data and calculations.
+
+4. A `currency_rv` function that performs the following tasks:
+   - Sources FX and inflation data for specified currencies
+   - Calculates implied FX rates using various base periods
+   - Compares real spot FX rates with implied rates
+   - Generates summary statistics and visualizations
+
+5. Utilization of pandas for data manipulation and analysis.
+
+6. Flexible date range selection and grouping options.
+
+7. Error handling for unsupported currencies.
+
+This tool demonstrates advanced financial modeling skills, particularly in FX markets and inflation analysis. It showcases proficiency in working with financial APIs, data processing, and implementing complex economic models.
+
+### README END ###
+
 today = dt.date.today()
 
 bq = bql.Service()
