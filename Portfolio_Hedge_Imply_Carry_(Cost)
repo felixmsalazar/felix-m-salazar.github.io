@@ -19,7 +19,9 @@ from tqdm import tqdm
 
 ### README START ###
 
-This code implements a portfolio analysis tool focusing on currency hedging and yield calculations for fixed income securities. Key features include:
+This code implements a portfolio analysis tool focusing on currency hedging and yield calculations for fixed income securities. 
+
+Key features include:
 Data retrieval from Bloomberg using BQL (Bloomberg Query Language) and XBBG libraries.
 Calculation of currency hedging costs and contributions for a given portfolio.
 Handling of both regular currencies and non-deliverable forwards (NDFs).
@@ -27,13 +29,15 @@ Computation of weighted average yield and duration for the portfolio.
 Integration of FX hedging contributions to calculate a hedged yield.
 Generation of detailed portfolio metrics and FX hedging contribution reports.
 
-The tool demonstrates advanced financial modeling skills, particularly in:
+The tool demonstrates financial modeling skills, particularly in:
 Fixed income portfolio analysis
 Currency hedging strategies
 Bloomberg API integration
 Data manipulation using pandas
 
-It showcases proficiency in working with complex financial instruments, API integration, and implementing sophisticated portfolio management techniques. The code's ability to handle various currency types and calculate hedged yields reflects a deep understanding of international fixed income markets and currency risk management.
+Showcases proficiency in working with complex financial instruments, API integration, and implementing
+sophisticated portfolio management techniques. The code's ability to handle various currency types and calculate 
+hedged yields reflects a deep understanding of international fixed income markets and currency risk management.
 
 Designed to be run as an executable or from a terminal (input function)
 
