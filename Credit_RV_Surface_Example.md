@@ -1,5 +1,3 @@
-### Download raw file and open in browser to view surface ###
-
 This interactive HTML visualization presents a comprehensive 3D surface gradient of the US high yield bond universe, plotted along two dimensions:
 
 - Duration
