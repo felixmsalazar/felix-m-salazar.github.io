@@ -27,3 +27,7 @@ Applications:
 - Educational tool: Illustrate complex bond market relationships
 
 This visualization tool demonstrates proficiency in data visualization, financial market analysis, and web development, showcasing the ability to present complex financial data in an accessible and insightful manner.
+
+![image](https://github.com/user-attachments/assets/7801c803-76de-4137-b4e2-4499e9254844)
+
+
