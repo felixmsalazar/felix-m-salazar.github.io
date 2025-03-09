@@ -1,15 +1,16 @@
-# Scalable & Optimized ETF Risk Parity Portfolio
+Dynamic Regime-Aware Portfolio Optimization
+Overview
+This project develops an Equal Risk Contribution (ERC) strategy for investing in multiple assets, optimized dynamically based on changing market regimes. The framework integrates machine learning and advanced optimization techniques to enhance portfolio performance.
 
-## Idea
+Framework Highlights
+Core Innovation
+Implements regime-aware risk parity allocation using machine learning to detect market states.
 
-Overview: Develop Equal Risk Contribution strategy investing in N assets that further optimizes asset allocation to changing market regime.
+Dynamically adjusts portfolio weights to balance risk contributions across assets.
 
-Framework Overview
-Core Innovation: Implements regime-aware risk parity allocation through machine learning-driven market state detection.
-
-Phase 1: Strategic Data Curation
-Asset Selection Protocol:
-Curated high-liquidity instruments with multi-decade price histories across distinct asset classes
+Framework Phases
+1. Strategic Data Curation
+Asset Selection: Focused on high-liquidity instruments with extensive historical data:
 
 Equity benchmark proxy
 
@@ -17,20 +18,18 @@ Sovereign debt exposure
 
 Inflation-sensitive commodity
 
-Feature Engineering Pipeline:
-Developed proprietary signal transformation methodology combining:
+Feature Engineering: Developed proprietary transformations, including:
 
 Volatility-normalized returns
 
-Adaptive trend extraction techniques
+Adaptive trend extraction
 
 Noise-reduction preprocessing
 
-Phase 2: Market Regime Inference Engine
-State Space Architecture:
-Custom-configured hidden Markov model with:
+2. Market Regime Inference Engine
+State Space Architecture: Customized hidden Markov model with:
 
-Dual-state hypothesis (market condition A/B)
+Dual-state hypothesis (e.g., bull/bear markets)
 
 State-specific volatility regimes
 
@@ -40,7 +39,48 @@ Machine Learning Operations:
 
 Recursive training protocol with drift correction
 
-Real-time probability surface generation
+Real-time regime probability estimation
 
 Asymmetric regime weighting methodology
 
+3. Adaptive Optimization System
+Regime-Sensitive Adjustments: Predicted regime probabilities influence portfolio weights to reflect varying risk-return dynamics.
+
+Dynamic Covariance Modeling: Rolling covariance matrices recalibrated at each time step for responsiveness to market changes.
+
+Optimization Objective: Minimize deviations from equal risk contribution across assets while adhering to constraints:
+
+Long-only positions
+
+No leverage
+
+Solver: Utilizes a robust nonlinear optimization algorithm to solve the objective function efficiently.
+
+Key Innovations
+Regime-sensitive covariance modeling
+
+Rolling horizon risk budget allocation
+
+Adaptive position sizing based on:
+
+Predicted state persistence
+
+Cross-asset volatility clustering
+
+Historical regime performance
+
+Technical Architecture
+Python-based quantitative stack
+
+Custom HMM configuration layer
+
+High-performance optimization libraries
+
+Automated backtesting infrastructure
+
+Strategic Outcomes
+Enhanced risk-adjusted returns through proactive adaptation to regime shifts.
+
+Improved portfolio resilience via dynamic allocation adjustments.
+
+Systematic balancing of risk contributions across diverse assets.
