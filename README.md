@@ -6,8 +6,8 @@ This repository contains a collection of my projects in financial modeling, focu
 
 ## Project Highlights
 
-### ETF Risk Parity Strategy
-Developing and testing efficient ETF risk parity strategy implementing machine learning and optimizing through the use of leverage.
+### Regime Aware Portfolio Construction
+Developing regime aware ERC framework for portfolio construction.
 
 ### Implied Spot FX Model
 Exploration of simple approach to modeling implied foreign exchange rates, incorporating methods like purchasing power parity and forward-implied breakevens.
