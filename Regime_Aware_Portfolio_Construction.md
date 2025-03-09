@@ -1,5 +1,5 @@
 # Dynamic Regime-Aware Portfolio Optimization
-Overview
+## Overview
 This project develops an Equal Risk Contribution (ERC) strategy for investing in multiple assets, optimized dynamically based on changing market regimes. The framework integrates machine learning and advanced optimization techniques to enhance portfolio performance (Strategy backtest snapshots at the end).
 
 
