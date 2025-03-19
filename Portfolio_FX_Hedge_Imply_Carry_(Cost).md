@@ -27,7 +27,3 @@ Error Handling: The tool includes error handling for unsupported currencies and 
 ## Project Structure
 The tool is organized around functions that manage data retrieval, hedging cost calculations, and portfolio metric computations. It also includes input functions for user interaction.
 
-## Use Cases
-This tool is useful for financial analysts and portfolio managers interested in optimizing fixed income portfolios through currency hedging strategies. It provides insights into hedged yields and FX contributions, enhancing portfolio performance and risk management.
-
-Feel free to customize this template to better fit your project's specific needs and the level of detail you wish to disclose.
