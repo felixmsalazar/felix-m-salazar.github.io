@@ -15,7 +15,7 @@ Dynamically adjusts portfolio weights to balance risk contributions across asset
 
 Equity benchmark proxy
 
-Sovereign debt exposure (UST)
+Sovereign debt exposure (T-Note)
 
 Inflation-sensitive commodity
 
