@@ -105,3 +105,5 @@ Enhanced risk-adjusted returns through proactive adaptation to regime shifts.
 Improved portfolio resilience via dynamic allocation adjustments.
 
 Systematic balancing of risk contributions across diverse assets.
+
+### Pending: Brier score calculation to further measure prediction accuracy.
