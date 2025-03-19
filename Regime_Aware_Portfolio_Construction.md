@@ -5,7 +5,7 @@ This project develops an Equal Risk Contribution (ERC) strategy for investing in
 
 ## Framework Highlights
 #### Core Innovation
-Implement regime-aware risk parity allocation using machine learning to detect market states.
+Implement regime-aware ERC allocation using machine learning to detect market states.
 
 Dynamically adjusts portfolio weights to balance risk contributions across assets.
 
@@ -66,7 +66,7 @@ No leverage
 
 ![image](https://github.com/user-attachments/assets/6a777de2-db3a-4292-bd9e-9cc149236f3a)
 
-#### Valiedating State Sequencing
+#### Validating State Sequencing
 Accurate state predictions visually confirmed with positive sloped green dot clusters and negative slope red dot clusters.
 
 #### COVID Crisis
