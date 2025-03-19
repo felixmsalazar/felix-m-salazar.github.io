@@ -1,4 +1,4 @@
-Currency Analysis Tool
+## Currency Analysis Tool
 Overview
 This project involves the development of a sophisticated currency analysis tool focusing on purchasing power parity (PPP) and implied exchange rates. The tool leverages financial data from Bloomberg to analyze currency trends and inflation differentials between countries.
 
