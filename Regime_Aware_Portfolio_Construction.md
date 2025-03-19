@@ -13,11 +13,11 @@ Dynamically adjusts portfolio weights to balance risk contributions across asset
 ## 1. Strategic Data Curation
 #### Asset Selection: Focused on high-liquidity instruments with extensive historical data:
 
-Equity benchmark proxy
+Equity benchmark proxy (SP500)
 
 Sovereign debt exposure (T-Note)
 
-Inflation-sensitive commodity
+Inflation-sensitive commodity (Gold)
 
 #### Feature Engineering: Developed proprietary transformations, including:
 
