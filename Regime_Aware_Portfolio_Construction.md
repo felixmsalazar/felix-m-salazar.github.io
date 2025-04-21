@@ -55,7 +55,7 @@ No leverage
 
 #### Predicted Bear State Probability Weighted Portfolio 
 ![image](https://github.com/user-attachments/assets/9c3c4c58-175f-4269-9671-40911dee55e1)
-
+*Robust Risk parity (covariance matrix aware)
 #### Comparing in-sample and out of sample predicted state distributions for equity asset (0 = Bear, 1 = Bull)
 
 ![image](https://github.com/user-attachments/assets/6a777de2-db3a-4292-bd9e-9cc149236f3a)
