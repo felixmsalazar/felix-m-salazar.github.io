@@ -95,12 +95,10 @@ Python-based quantitative stack
 
 Custom HMM configuration layer
 
-High-performance optimization libraries
-
 Automated backtesting infrastructure
 
 ## Strategic Outcomes
-Enhanced risk-adjusted returns through proactive adaptation to regime shifts.
+Enhanced risk-adjusted returns through proactive adaptation to regime shifts. Scale Covariance matrices by HMM latent state posterior probabilities.
 
 Improved portfolio resilience via dynamic allocation adjustments.
 
