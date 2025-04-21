@@ -24,22 +24,22 @@ Dynamically adjusts portfolio weights to balance risk contributions across asset
 - Volatility-normalized returns (log returns of 7 day MA) for noise-reduction data preprocessing.
 
 ## 2. Market Regime Inference Engine
-#### State Space Architecture: Customized hidden Markov model with:
+#### State Space Architecture: Hidden Markov model (HMMlearn) with specific parameters:
 
-Dual-state hypothesis (e.g., bull/bear markets).
+- Dual-state hypothesis (e.g., bull/bear markets).
 
-State-specific volatility regimes.
+- State-specific volatility regimes.
 
-Adaptive covariance structures.
+- Adaptive covariance structures.
 
 #### Machine Learning Operations:
 
-Recursive training protocol with drift correction (feedforward training with retraining steps avoid transition matrix stationarity).
+- Recursive training protocol with drift correction (feedforward training with retraining steps avoid transition matrix stationarity).
 
-Asymmetric regime weighting methodology (bear state posterior probabilities).
+- Asymmetric regime weighting methodology (bear state posterior probabilities).
 
 ## 3. Adaptive Optimization System
-Regime-Sensitive Adjustments: Predicted regime probabilities influence portfolio weights to reflect varying risk-return dynamics by scaling covariance matrices by latent state posterior probabilities.
+Regime-Sensitive Adjustments: Predicted regime probabilities influence portfolio weighting toward predicted high volatility market regimes by scaling covariance matrices by latent state posterior probabilities (bear state predicted probabilities).
 
 Dynamic Covariance Modeling: Rolling covariance matrices recalibrated at each time step for responsiveness to market changes.
 
