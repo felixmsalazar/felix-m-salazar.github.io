@@ -30,22 +30,20 @@ Noise-reduction preprocessing
 ## 2. Market Regime Inference Engine
 #### State Space Architecture: Customized hidden Markov model with:
 
-Dual-state hypothesis (e.g., bull/bear markets)
+Dual-state hypothesis (e.g., bull/bear markets).
 
-State-specific volatility regimes
+State-specific volatility regimes.
 
-Adaptive covariance structures
+Adaptive covariance structures.
 
 #### Machine Learning Operations:
 
-Recursive training protocol with drift correction
+Recursive training protocol with drift correction (feedforward training with retraining steps avoid transition matrix stationarity).
 
-Real-time regime probability estimation
-
-Asymmetric regime weighting methodology
+Asymmetric regime weighting methodology (bear state posterior probabilities).
 
 ## 3. Adaptive Optimization System
-Regime-Sensitive Adjustments: Predicted regime probabilities influence portfolio weights to reflect varying risk-return dynamics.
+Regime-Sensitive Adjustments: Predicted regime probabilities influence portfolio weights to reflect varying risk-return dynamics by scaling covariance matrices by latent state posterior probabilities.
 
 Dynamic Covariance Modeling: Rolling covariance matrices recalibrated at each time step for responsiveness to market changes.
 
@@ -75,33 +73,3 @@ Accurate state predictions visually confirmed with positive sloped green dot clu
 #### Inflation Shock & Rising Rates
 ![image](https://github.com/user-attachments/assets/43a4bf49-aeb0-412f-98dd-9285915748c2)
 
-
-
-## Key Innovations
-Regime-sensitive covariance modeling
-
-Rolling horizon risk budget allocation
-
-#### Adaptive position sizing based on:
-
-Predicted state persistence
-
-Cross-asset volatility clustering
-
-Historical regime performance
-
-## Technical Architecture
-Python-based quantitative stack
-
-Custom HMM configuration layer
-
-Automated backtesting infrastructure
-
-## Strategic Outcomes
-Enhanced risk-adjusted returns through proactive adaptation to regime shifts. Scale Covariance matrices by HMM latent state posterior probabilities.
-
-Improved portfolio resilience via dynamic allocation adjustments.
-
-Systematic balancing of risk contributions across diverse assets.
-
-### Pending: Brier score calculation to further measure prediction accuracy.
