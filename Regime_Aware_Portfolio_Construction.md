@@ -13,19 +13,15 @@ Dynamically adjusts portfolio weights to balance risk contributions across asset
 ## 1. Strategic Data Curation
 #### Asset Selection: Focused on high-liquidity instruments with extensive historical data:
 
-Equity benchmark proxy (SP500)
+- Equity benchmark proxy (SP500)
 
-Sovereign debt exposure (T-Note)
+- Sovereign debt exposure (T-Note)
 
-Inflation-sensitive commodity (Gold)
+- Inflation-sensitive commodity (Gold)
 
-#### Feature Engineering: Developed proprietary transformations, including:
+#### Feature Engineering:
 
-Volatility-normalized returns
-
-Adaptive trend extraction
-
-Noise-reduction preprocessing
+- Volatility-normalized returns (log returns of 7 day MA) for noise-reduction data preprocessing.
 
 ## 2. Market Regime Inference Engine
 #### State Space Architecture: Customized hidden Markov model with:
